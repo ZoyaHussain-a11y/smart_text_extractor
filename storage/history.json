@@ -1,0 +1,182 @@
+[
+    {
+        "filename": "modern.png",
+        "processed_at": "2025-08-08T04:31:53.183746",
+        "result": {
+            "file": "modern.png",
+            "pages": [
+                {
+                    "page": 1,
+                    "text": "\"s RedmineCRM ReaminecRM\n\nCompany representative name\nYour company address\nTax ID\nphone:\nfax:\n\u201cPomashiea Lid. Invoice ID: INV/2011 1209-22\n+1600 Amphitheatre Parkway Mountain View, CA94043 Invoice date: 12/08/2011\nDue date: 12/25/2012\nText custom field: Visible field in PDF\n# Description Qty \u2014 Units Unit price (EUR) Total (EUR)\n1 Projecting x1.0 hours 50.00 50.00\n\n= Context menu for invoices list\n\n2 Develop x17.0 hours 40.00 680.00\n= Invoice number format template\n= [PRO] Duplicating invoices\n= Language support\n= Context menu for invoices list\n\n3 Analysis x3.0 hours 35.00 105.00\n= [PRO] Duplicating invoices\n- Language support\nSub total: 835.00\nTax (18.0%) 150.30\nDiscount (10.0%): -83.50\n\nTotal (EUR): 901.80\n",
+                    "fields": {
+                        "date": "12/08/2011",
+                        "total": "2011"
+                    }
+                }
+            ],
+            "processed_at": "2025-08-08T04:31:53.182583"
+        },
+        "extracted_fields": {
+            "invoice_number": null,
+            "date": "12/08/2011",
+            "total": "2011"
+        }
+    },
+    {
+        "filename": "sample_invoice.pdf",
+        "processed_at": "2025-08-08T04:37:56.739598",
+        "result": {
+            "error": "Failed to open file 'uploads\\\\sample_invoice.pdf'.",
+            "file": "sample_invoice.pdf",
+            "processed_at": "2025-08-08T04:37:56.734497"
+        },
+        "extracted_fields": {
+            "invoice_number": null,
+            "date": null,
+            "total": null
+        }
+    },
+    {
+        "filename": "sample_invoice.pdf",
+        "processed_at": "2025-08-08T04:39:51.962044",
+        "result": {
+            "error": "Failed to open file 'C:\\\\Users\\\\user\\\\Documents\\\\smart_text_extractor\\\\uploads\\\\sample_invoice.pdf'.",
+            "file": "sample_invoice.pdf",
+            "processed_at": "2025-08-08T04:39:51.961587"
+        },
+        "extracted_fields": {
+            "invoice_number": null,
+            "date": null,
+            "total": null
+        }
+    },
+    {
+        "filename": "sample_invoice.pdf",
+        "processed_at": "2025-08-08T04:40:18.572442",
+        "result": {
+            "error": "Failed to open file 'C:\\\\Users\\\\user\\\\Documents\\\\smart_text_extractor\\\\uploads\\\\sample_invoice.pdf'.",
+            "file": "sample_invoice.pdf",
+            "processed_at": "2025-08-08T04:40:18.571262"
+        },
+        "extracted_fields": {
+            "invoice_number": null,
+            "date": null,
+            "total": null
+        }
+    },
+    {
+        "filename": "sample_invoice.pdf",
+        "processed_at": "2025-08-08T04:41:52.839678",
+        "result": {
+            "error": "Failed to open file 'C:\\\\Users\\\\user\\\\Documents\\\\smart_text_extractor\\\\uploads\\\\sample_invoice.pdf'.",
+            "file": "sample_invoice.pdf",
+            "processed_at": "2025-08-08T04:41:52.838236"
+        },
+        "extracted_fields": {
+            "invoice_number": null,
+            "date": null,
+            "total": null
+        }
+    },
+    {
+        "filename": "sample_invoice_image.png",
+        "processed_at": "2025-08-08T05:09:01.860495",
+        "result": {
+            "file": "sample_invoice_image.png",
+            "pages": [
+                {
+                    "page": 1,
+                    "text": "Invoice Number: INV-2025-002\nDate: 2025-08-08\nCustomer: Test Corp\n\nItems:\n1. Service A- PKR 10,000\n2. Service B - PKR 5,000\n\nSubtotal: PKR 15,000\nTax (17%): PKR 2,550\nTotal: PKR 17,550\n\nPayment Due: 2025-09-08\n",
+                    "fields": {
+                        "date": "25-08-08",
+                        "total": "2025"
+                    }
+                }
+            ],
+            "processed_at": "2025-08-08T05:09:01.857222"
+        },
+        "extracted_fields": {
+            "invoice_number": null,
+            "date": "25-08-08",
+            "total": "2025"
+        }
+    },
+    {
+        "filename": "formImage.png",
+        "processed_at": "2025-08-08T05:11:26.334840",
+        "result": {
+            "file": "formImage.png",
+            "pages": [
+                {
+                    "page": 1,
+                    "text": "TIME OFF REQUEST FORM\n\nFull Name:\n\nDate of Request:\n\nShift & Department:\n\nTIME OFF DETAILS\n\nCheck the Type of Leave You Are Requesting:\n0 Vacation/PTO\n\nO Sick Leave\n\n0 Time Off Without Pay\nOO Bereavement\n\nOO Jury Duty\n\nO Other:\n\nStart Date: End Date:\nTotal Number of Days:\n\nTotal Number of Hours:\n\nREASON (OPTIONAL):\n\nEmployee Signature:\n\nToday's Date:\n\nTIME OFF REQUEST FORM\n\nFull Name:\n\nDate of Request:\n\nShift & Department:\n\nTIME OFF DETAILS\n\nCheck the Type of Leave You Are Requesting:\n0 Vacation/PTO\n\nOO Sick Leave\n\nO Time Off Without Pay\nCO Bereavement\n\nOO Jury Duty\n\n0 Other:\n\nStart Date: End Date:\nTotal Number of Days:\n\nTotal Number of Hours:\n\nREASON (OPTIONAL):\n\nEmployee Signature:\n\nToday's Date:\n\n",
+                    "fields": {
+                        "total": "0"
+                    }
+                }
+            ],
+            "processed_at": "2025-08-08T05:11:26.331426"
+        },
+        "extracted_fields": {
+            "invoice_number": null,
+            "date": null,
+            "total": "0"
+        }
+    },
+    {
+        "filename": "invoice1.pdf",
+        "processed_at": "2025-08-08T05:58:16.097106",
+        "result": {
+            "file": "invoice1.pdf",
+            "pages": [
+                {
+                    "page": 1,
+                    "text": "Note:\nEstelle Darcy\n+123-456-7890\n123 Anywhere St., Any City\nBill To:\nNO: INV-12345-1\nDate: 26 June 2022\nDescription\nQty\nPrice\nTotal\nYour Description\n1\n$ 0.00\n1\nSub Total\n$ 0.00\nPayment Information:\nBank:\nNo Bank:\nEmail:\nName Bank\n123-456-7890\nreallygreatsite.com\nYour Description\n$ 0.00\n$ 0.00\n$ 0.00\nYour Description\n1\n$ 0.00\n1\nYour Description\n$ 0.00\n$ 0.00\n$ 0.00\nYour Description\n1\n$ 0.00\n1\nYour Description\n$ 0.00\n$ 0.00\n$ 0.00\nINVOICE\nSamira Hadid\n+123-456-7890\n123 Anywhere St., Any City\nFrom:\nThank You!\n",
+                    "fields": {
+                        "invoice_number": "12345.0",
+                        "amount": "12345.0"
+                    }
+                }
+            ],
+            "processed_at": "2025-08-08T05:58:16.089673"
+        },
+        "extracted_fields": {
+            "invoice_number": "12345.0",
+            "date": null,
+            "total": null
+        }
+    },
+    {
+        "filename": "Form1.pdf",
+        "processed_at": "2025-08-08T06:33:11.101231",
+        "result": {
+            "file": "Form1.pdf",
+            "pages": [
+                {
+                    "page": 1,
+                    "text": "Male\nNAME:\nSURVEY\nPERSONAL INFORMATION:\nGENDER:\nCIVIL STATUS\nDATE OF BIRTH:\nYEAR\nMONTH\nDAY\nNot Listed\nFemale\nPrefer Not to Answer\nADDRESS:\nUnit No. St. No.\nStreet\nTown/City/Suburb\nZip Code\nCountry\nState\nINSTRUCTIONS:\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nNever\nAlways\nQUESTIONS:\nOften\nSometimes\nRarely\nRATING SCALE:\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\n",
+                    "fields": {}
+                }
+            ],
+            "processed_at": "2025-08-08T06:33:11.099646"
+        },
+        "pages": [
+            {
+                "page": 1,
+                "text": "Male\nNAME:\nSURVEY\nPERSONAL INFORMATION:\nGENDER:\nCIVIL STATUS\nDATE OF BIRTH:\nYEAR\nMONTH\nDAY\nNot Listed\nFemale\nPrefer Not to Answer\nADDRESS:\nUnit No. St. No.\nStreet\nTown/City/Suburb\nZip Code\nCountry\nState\nINSTRUCTIONS:\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nNever\nAlways\nQUESTIONS:\nOften\nSometimes\nRarely\nRATING SCALE:\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nAenean pretium ut sem vitae aliquet. Nunc viverra sagittis\nodio, non viverra tellus malesuada in.\n",
+                "fields": {}
+            }
+        ],
+        "extracted_fields": {
+            "invoice_number": null,
+            "date": null,
+            "total": null,
+            "amount": null,
+            "vendor": null,
+            "description": null
+        },
+        "file_type": "pdf",
+        "page_count": 1,
+        "text_length": 1983
+    }
+]
