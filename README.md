@@ -84,12 +84,6 @@ You can verify if your token is valid before using it:
    - Value: `Bearer [Your JWT Token]`
 5. Click "Send"
 
-The response will indicate if the token is valid:
-```json
-{
-    "valid": true,
-    "message": "Token is valid"
-}
 ```
 
 #### 2. Test File Extraction
@@ -114,8 +108,6 @@ The response will indicate if the token is valid:
    - Key: `Authorization`
    - Value: `Bearer [Your JWT Token]`
 5. Click "Send"
-
-### Expected Responses
 
 
 ```
