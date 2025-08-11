@@ -34,22 +34,6 @@ Upload a file (PDF or image) to extract text and fields.
    - Value: Click the "Select File" button and choose your PDF or image file
 4. Click "Send"
 
-Response:
-```json
-{
-    "file": "example.pdf",
-    "pages": [
-        {
-            "page": 1,
-            "text": "Invoice No: 1234\nTotal: PKR 4500",
-            "fields": {
-                "invoice_number": "1234",
-                "total": "PKR 4500"
-            }
-        }
-    ],
-    "processed_at": "2025-08-08T12:25:27+00:00"
-}
 ```
 
 ### GET /history
@@ -59,18 +43,6 @@ Get a list of previously processed files with their extracted fields.
 1. Create a new GET request to `http://localhost:5000/history`
 2. Click "Send"
 
-Response:
-```json
-[
-    {
-        "filename": "example.pdf",
-        "processed_at": "2025-08-08T12:25:27+00:00",
-        "extracted_fields": {
-            "invoice_number": "1234",
-            "date": "2025-08-08",
-            "total": "PKR 4500"
-        }
-    }
 ]
 ```
 
@@ -143,60 +115,9 @@ The response will indicate if the token is valid:
    - Value: `Bearer [Your JWT Token]`
 5. Click "Send"
 
-Response will contain detailed history of all processed files:
-```json
-
-1. **"No file uploaded" error**
-   - Ensure you've selected the file in Postman
-   - Check if the file path is correct
-   - Verify file size (should be reasonable)
-
-2. **"Unsupported file type" error**
-   - Make sure the file has one of these extensions:
-     - PDF: .pdf
-     - Images: .png, .jpg, .jpeg, .tiff
-
-3. **"Unauthorized" error (401)**
-   - Verify you've included the API key header
-   - Check if the API key is correct
-   - Make sure there are no extra spaces in the API key
-
-4. **"No history to export" error**
-   - Make sure you've processed at least one file first
-   - Try processing a file through the `/extract` endpoint
-
 ### Expected Responses
 
-#### Success Response for File Extraction
-```json
-{
-    "file": "example.pdf",
-    "pages": [
-        {
-            "page": 1,
-            "text": "Invoice Number: INV-12345\nDate: 2025-08-08",
-            "fields": {
-                "invoice_number": "INV-12345",
-                "date": "2025-08-08"
-            }
-        }
-    ],
-    "processed_at": "2025-08-08T12:25:27+00:00"
-}
-```
 
-#### Success Response for History
-```json
-[
-    {
-        "filename": "example.pdf",
-        "processed_at": "2025-08-08T12:25:27+00:00",
-        "extracted_fields": {
-            "invoice_number": "INV-12345",
-            "date": "2025-08-08"
-        }
-    }
-]
 ```
 
 #### Sample CSV Export
@@ -244,21 +165,5 @@ smart_text_extractor/
 
 3. Access the API at http://localhost:5000
 
-## Security Considerations
 
-- The API should be protected with authentication in production
-- Sensitive data should be properly sanitized
-- File uploads should be validated for size and type
-- Error messages should not expose sensitive information
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-MIT License
